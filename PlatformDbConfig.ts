@@ -1,4 +1,4 @@
-import {ServerZone} from 'server-zone';
+import {ServerZone} from 'nika-server-zone';
 
 export class PlatformDbConfig {
     static readonly COURSES_TABLE = 'courses';
