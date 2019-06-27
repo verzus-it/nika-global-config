@@ -5,7 +5,6 @@ export class PlatformDbConfig {
 
     static connectionParams(serverZone:ServerZone) {
         const connectionsParams = this.connectionsParams();
-
         const connectionParams = connectionsParams[serverZone];
 
         if (!connectionParams)
